@@ -1,5 +1,3 @@
-//Members: Abdullah Bin Omer Zia, Muhammad Ahsan Tahir, Muhammad Haseeb Ashraf, Muhammad Usman Tahir
-
 #include <stdio.h>
 #include <time.h>
 #include <windows.h>
