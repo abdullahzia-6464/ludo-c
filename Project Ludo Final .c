@@ -398,13 +398,13 @@ int geetis_out[4][5];
 
 char names[4][10]; // Stores Colour names respective to the player #
 
-				   int rolldice()                           // USE THIS FOR QUICK CHECKING
-				   {
-				   int die = 0;
-				   printf("\nDice roll: ");
-				   die = inputinteger();
-				   return die;
-				   }
+/*int rolldice()                           // USE THIS FOR QUICK CHECKING
+{
+	int die = 0;
+	printf("\nDice roll: ");
+	die = inputinteger();
+	return die;
+}*/
 void dice_top()
 {
 	printf("\t%c", 218);
@@ -554,7 +554,7 @@ void six()
 	dice_bottom();
 }
 
-/*int rolldice()           // Comment this and use the other roledice function for quick checking.
+int rolldice()           // Comment this and use the other roledice function for quick checking.
 {
 	int dice = 0;
 	srand(time(NULL));
@@ -621,7 +621,7 @@ void six()
 	}
 	Sleep(500);
 	return dice;
-}*/
+}
 int findnewindex(int box[][2][6], int new_location)
 {
 	int new_index = 0;
